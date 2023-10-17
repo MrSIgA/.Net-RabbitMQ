@@ -1,0 +1,12 @@
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\bin\Debug\net6.0\TopicExchange.Consumer.deps.json
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\bin\Debug\net6.0\TopicExchange.Consumer.dll
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\bin\Debug\net6.0\TopicExchange.Consumer.pdb
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.csproj.AssemblyReference.cache
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.AssemblyInfoInputs.cache
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.AssemblyInfo.cs
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.csproj.CoreCompileInputs.cache
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.dll
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\refint\TopicExchange.Consumer.dll
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\TopicExchange.Consumer.pdb
+E:\programming\.Net-RabbitMQ\RabbitMQ\TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\obj\Debug\net6.0\ref\TopicExchange.Consumer.dll

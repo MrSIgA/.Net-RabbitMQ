@@ -5,27 +5,41 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DefaultExchange", "DefaultExchange", "{2869BA70-82EC-4D45-852C-3909AC0B41B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consomer", "DefaultExchange\Consomer\Consomer.csproj", "{10406944-383B-4E02-AFB9-784A48A96D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultExchange.Consomer", "DefaultExchange\Consomer\DefaultExchange.Consomer.csproj", "{10406944-383B-4E02-AFB9-784A48A96D15}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "DefaultExchange\Publisher\Publisher.csproj", "{DF274D1E-124F-4146-BEE6-F14CD8E5E346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultExchange.Publisher", "DefaultExchange\Publisher\DefaultExchange.Publisher.csproj", "{DF274D1E-124F-4146-BEE6-F14CD8E5E346}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectExchange", "DirectExchange", "{DC37DAFB-D3DB-4DF8-B70F-9910CCA64106}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "DirectExchange\Producer\Publisher.csproj", "{E9A55F39-7182-4250-8097-8925628702E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.Publisher", "DirectExchange\Producer\DirectExchange.Publisher.csproj", "{E9A55F39-7182-4250-8097-8925628702E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{81C76593-B4AD-411C-9132-41C9D66F7C15}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedCode", "SharedCode", "{69D6CAAD-74FD-49D0-93F4-D080C042ED49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "DirectExchange\Consumer\SharedCode\ConsumerBuilder\Consumer.csproj", "{C6375F31-D4E1-4BA9-8E47-EF89E6C8AF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.Consumer", "DirectExchange\Consumer\SharedCode\ConsumerBuilder\DirectExchange.Consumer.csproj", "{C6375F31-D4E1-4BA9-8E47-EF89E6C8AF9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerFirst", "DirectExchange\Consumer\ConsumerFirst\ConsumerFirst.csproj", "{56DE5880-4364-4A04-A61A-23D71498FB6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.ConsumerFirst", "DirectExchange\Consumer\ConsumerFirst\DirectExchange.ConsumerFirst.csproj", "{56DE5880-4364-4A04-A61A-23D71498FB6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerSecond", "DirectExchange\Consumer\ConsumerSecond\ConsumerSecond.csproj", "{D8024DC6-1BDF-4B87-9893-A4EEACF8BBCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.ConsumerSecond", "DirectExchange\Consumer\ConsumerSecond\DirectExchange.ConsumerSecond.csproj", "{D8024DC6-1BDF-4B87-9893-A4EEACF8BBCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerThird", "DirectExchange\Consumer\ConsumerThird\ConsumerThird.csproj", "{E2854D28-1758-4DD0-82A9-20A572AA9BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.ConsumerThird", "DirectExchange\Consumer\ConsumerThird\DirectExchange.ConsumerThird.csproj", "{E2854D28-1758-4DD0-82A9-20A572AA9BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerAll", "DirectExchange\Consumer\ConsumerAll\ConsumerAll.csproj", "{5B2FAA65-FA8A-4CE4-9916-8130995DBA4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.ConsumerAll", "DirectExchange\Consumer\ConsumerAll\DirectExchange.ConsumerAll.csproj", "{5B2FAA65-FA8A-4CE4-9916-8130995DBA4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopicExchange", "TopicExchange", "{58DEE882-061C-46ED-A406-4EAC203E4D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange.Publisher", "TopicExchange\TopicExchange.Publisher\TopicExchange.Publisher.csproj", "{4F29A58E-A4FF-4E1F-90D9-C89381746D68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{2D9057ED-A9FC-4227-ADB8-8A349AB11063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedCode", "SharedCode", "{3711B926-6BE5-4A58-97E7-C7F16868D645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange.Consumer.Tesla", "TopicExchange\Consumer\TopicExchange.Consumer.Tesla\TopicExchange.Consumer.Tesla.csproj", "{7D53B487-09E3-4D04-9E53-EB07DE46FEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange.Consumer", "TopicExchange\Consumer\SharedCode\TopicExchange.Consumer\TopicExchange.Consumer.csproj", "{E4FD575C-A024-42F8-84E1-503E16C69C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange.Consumer.Black", "TopicExchange\Consumer\TopicExchange.Consumer.Black\TopicExchange.Consumer.Black.csproj", "{3FB10994-CE25-4701-97FE-491D77B90DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +79,22 @@ Global
 		{5B2FAA65-FA8A-4CE4-9916-8130995DBA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B2FAA65-FA8A-4CE4-9916-8130995DBA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B2FAA65-FA8A-4CE4-9916-8130995DBA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F29A58E-A4FF-4E1F-90D9-C89381746D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F29A58E-A4FF-4E1F-90D9-C89381746D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F29A58E-A4FF-4E1F-90D9-C89381746D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F29A58E-A4FF-4E1F-90D9-C89381746D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D53B487-09E3-4D04-9E53-EB07DE46FEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D53B487-09E3-4D04-9E53-EB07DE46FEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D53B487-09E3-4D04-9E53-EB07DE46FEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D53B487-09E3-4D04-9E53-EB07DE46FEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FD575C-A024-42F8-84E1-503E16C69C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FD575C-A024-42F8-84E1-503E16C69C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FD575C-A024-42F8-84E1-503E16C69C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FD575C-A024-42F8-84E1-503E16C69C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB10994-CE25-4701-97FE-491D77B90DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB10994-CE25-4701-97FE-491D77B90DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB10994-CE25-4701-97FE-491D77B90DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB10994-CE25-4701-97FE-491D77B90DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +110,12 @@ Global
 		{D8024DC6-1BDF-4B87-9893-A4EEACF8BBCB} = {81C76593-B4AD-411C-9132-41C9D66F7C15}
 		{E2854D28-1758-4DD0-82A9-20A572AA9BE9} = {81C76593-B4AD-411C-9132-41C9D66F7C15}
 		{5B2FAA65-FA8A-4CE4-9916-8130995DBA4E} = {81C76593-B4AD-411C-9132-41C9D66F7C15}
+		{4F29A58E-A4FF-4E1F-90D9-C89381746D68} = {58DEE882-061C-46ED-A406-4EAC203E4D18}
+		{2D9057ED-A9FC-4227-ADB8-8A349AB11063} = {58DEE882-061C-46ED-A406-4EAC203E4D18}
+		{3711B926-6BE5-4A58-97E7-C7F16868D645} = {2D9057ED-A9FC-4227-ADB8-8A349AB11063}
+		{7D53B487-09E3-4D04-9E53-EB07DE46FEA7} = {2D9057ED-A9FC-4227-ADB8-8A349AB11063}
+		{E4FD575C-A024-42F8-84E1-503E16C69C36} = {3711B926-6BE5-4A58-97E7-C7F16868D645}
+		{3FB10994-CE25-4701-97FE-491D77B90DAE} = {2D9057ED-A9FC-4227-ADB8-8A349AB11063}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2431D63E-FA8B-415A-BB5A-18341758C601}

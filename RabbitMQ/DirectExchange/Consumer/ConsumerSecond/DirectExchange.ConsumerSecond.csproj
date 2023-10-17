@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharedCode\ConsumerBuilder\Consumer.csproj" />
+    <ProjectReference Include="..\SharedCode\ConsumerBuilder\DirectExchange.Consumer.csproj" />
   </ItemGroup>
 
 </Project>
