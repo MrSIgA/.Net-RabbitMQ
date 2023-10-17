@@ -129,9 +129,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Publisher\\Publisher.csproj",
-      "projectName": "Publisher",
-      "projectPath": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Publisher\\Publisher.csproj",
+      "projectUniqueName": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Publisher\\DefaultExchange.Publisher.csproj",
+      "projectName": "DefaultExchange.Publisher",
+      "projectPath": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Publisher\\DefaultExchange.Publisher.csproj",
       "packagesPath": "C:\\Users\\Сливин Игорь\\.nuget\\packages\\",
       "outputPath": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Publisher\\obj\\",
       "projectStyle": "PackageReference",

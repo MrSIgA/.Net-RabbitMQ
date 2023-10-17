@@ -129,9 +129,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Consomer\\Consomer.csproj",
-      "projectName": "Consomer",
-      "projectPath": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Consomer\\Consomer.csproj",
+      "projectUniqueName": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Consomer\\DefaultExchange.Consomer.csproj",
+      "projectName": "DefaultExchange.Consomer",
+      "projectPath": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Consomer\\DefaultExchange.Consomer.csproj",
       "packagesPath": "C:\\Users\\Сливин Игорь\\.nuget\\packages\\",
       "outputPath": "E:\\programming\\.Net-RabbitMQ\\RabbitMQ\\DefaultExchange\\Consomer\\obj\\",
       "projectStyle": "PackageReference",
